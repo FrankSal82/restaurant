@@ -46,4 +46,21 @@
   background-size: cover;
   background-position: center;
 }
+
+.slide-one-logo {
+  max-height: 300px;
+  text-shadow: 1x 1x 2x #0a0a0a;
+}
+
+.slide-two-eat {
+  position: relative;
+  bottom: 150px;
+  text-shadow: 1x 1x 2x #0a0a0a;
+}
+.btn-default {
+  color: #fff;
+  background-color: #f85125;
+  border: none;
+}
+
 /*END OF CAROUSEL*/
