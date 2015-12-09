@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 /*NAV*/
 .navbar {
   position: absolute;
@@ -51,16 +51,98 @@
   max-height: 300px;
   text-shadow: 1x 1x 2x #0a0a0a;
 }
-
-.slide-two-eat {
+.carousel-caption {
+  bottom: 110px;
+}
+.carousel-caption p {
+  color: #fff;
+  font-size: 17px;
+  text-shadow: 0px opx 3px rgba(0, 0, 0, 0.71);
+  font-weight: 400;
+}
+/*.slide-two-eat {*/
   position: relative;
   bottom: 150px;
   text-shadow: 1x 1x 2x #0a0a0a;
 }
-.btn-default {
+.btn-primary {
   color: #fff;
-  background-color: #f85125;
+  background-color: #f8512f;
+  border-color: transparent;
   border: none;
 }
+.btn-primary:hover {
+  background-color: #d34326;
+  border-color: transparent;
+}
+/*our story*/
+#our-story {
+  min-height: 600px;
+}
+#our-story .row {
+  margin-top: 30px;
+}
+#our-story h1 {
+  font-family: 'lobster', cursive;
+  color:#f8512f;
+  font-size: 85px;
+  margin-top: 0px;
+}
+#our-story h2 {
+  font-size: 28px;
+  margin-top: -15px;
+}
+#our-story p {
+  font-weight: 300px;
+  font-size: 17px;
+}
+h3.story-year {
+  font-weight: 700px;
+  font-size: 200px;
+  color: rgba(149, 147, 147, .2);
+  position: absolute;
+  z-index: -1;
+}
+/*END OF OUR STORY*/
 
+/*review*/
+#review {
+  background-image: url(../img/food_review.jpg);
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#review .center {
+  float: none;
+  background-color: rgba(20, 20, 20, .6);
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 145px;
+  border-radius: 5px;
+}
+#review h2 {
+  font-family: 'lobster', cursive;
+  font-size: 70px;
+  color: #f8512f;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#review p {
+  color: #fff;
+  font-weight: 300;
+  font-size:30px;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#menu {
+  background-image: url(../img/black_linen.png);
+  background-size: cover;
+  padding-bottom: 70px;
+  padding-top: 40px;
+}
+.food {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*END OF REVIEW*/
 /*END OF CAROUSEL*/
